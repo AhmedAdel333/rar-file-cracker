@@ -1,5 +1,4 @@
 import rarfile
-import os
 
 
 def unrar(passwd, rar_file):
@@ -24,5 +23,5 @@ while True:
 		except:
 			print ("[-] wrong password: " + passwd)
 
-	input("press any key to continue ...")
+	input("press <enter> to continue ...")
 	
